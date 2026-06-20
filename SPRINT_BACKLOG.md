@@ -17,13 +17,13 @@
 
 # Objetivo da Sprint
 
-Planejar, organizar e documentar uma Sprint Scrum para o desenvolvimento de um Sistema de Gestão de Projetos de Pesquisa, aplicando os principais rituais, artefatos e práticas do framework Scrum.
+Planejar, organizar e documentar uma Sprint Scrum para o desenvolvimento de um Sistema de Gestão de Projetos de Pesquisa, aplicando os principais rituais e artefatos do framework Scrum.
 
 ---
 
 # Histórias de Usuário
 
-## HU01
+## HU01 – Cadastro de Projetos
 
 **Como chefe, quero cadastrar um projeto com nome, descrição e prazo para organizar os projetos de pesquisa.**
 
@@ -40,15 +40,16 @@ Alta
 
 ### Tarefas
 
-| ID  | Tarefa                                              | Responsável | Estimativa |
-| --- | --------------------------------------------------- | ----------- | ---------- |
-| T01 | Levantamento dos requisitos do cadastro de projetos | Leonardo    | M          |
-| T02 | Definição das informações necessárias do projeto    | Daniel      | S          |
-| T03 | Revisão dos critérios de aceitação                  | Matheus     | S          |
+| ID  | Tarefa                                                        | Responsável | Estimativa |
+| --- | ------------------------------------------------------------- | ----------- | ---------- |
+| T01 | Levantamento dos requisitos do cadastro de projetos           | Leonardo    | M          |
+| T02 | Definição dos campos nome, descrição e prazo                  | Daniel      | S          |
+| T03 | Definição dos critérios de aceitação                          | Matheus     | S          |
+| T04 | Revisão da história de usuário e validação pelo Product Owner | Leonardo    | S          |
 
 ---
 
-## HU02
+## HU02 – Cadastro de Atividades
 
 **Como chefe, quero adicionar atividades com título, responsável e status para acompanhar o andamento das tarefas.**
 
@@ -66,17 +67,18 @@ Alta
 
 ### Tarefas
 
-| ID  | Tarefa                                        | Responsável | Estimativa |
-| --- | --------------------------------------------- | ----------- | ---------- |
-| T04 | Definição dos dados das atividades            | Leonardo    | M          |
-| T05 | Organização das informações de acompanhamento | Jonathan    | M          |
-| T06 | Revisão dos critérios de aceitação            | Matheus     | S          |
+| ID  | Tarefa                                                | Responsável | Estimativa |
+| --- | ----------------------------------------------------- | ----------- | ---------- |
+| T05 | Definição dos dados das atividades                    | Leonardo    | M          |
+| T06 | Definição dos status a fazer, andando e concluído     | Jonathan    | S          |
+| T07 | Organização do fluxo de acompanhamento das atividades | Jonathan    | M          |
+| T08 | Revisão dos critérios de aceitação                    | Matheus     | S          |
 
 ---
 
-## HU03
+## HU03 – Dashboard de Acompanhamento
 
-**Como chefe, quero visualizar um dashboard com os projetos e percentual concluído para acompanhar o progresso geral.**
+**Como chefe, quero visualizar um dashboard com projetos e percentual concluído para acompanhar o progresso geral.**
 
 ### Prioridade
 
@@ -90,11 +92,12 @@ Média
 
 ### Tarefas
 
-| ID  | Tarefa                                 | Responsável | Estimativa |
-| --- | -------------------------------------- | ----------- | ---------- |
-| T07 | Definição dos indicadores do dashboard | Jonathan    | M          |
-| T08 | Organização da visualização dos dados  | Daniel      | S          |
-| T09 | Revisão final do backlog               | Matheus     | S          |
+| ID  | Tarefa                                                                          | Responsável | Estimativa |
+| --- | ------------------------------------------------------------------------------- | ----------- | ---------- |
+| T09 | Definição dos indicadores do dashboard                                          | Jonathan    | M          |
+| T10 | Definição do cálculo do percentual concluído                                    | Daniel      | M          |
+| T11 | Organização da visualização das atividades pendentes, em andamento e concluídas | Matheus     | M          |
+| T12 | Revisão final do backlog e alinhamento com a Sprint Review                      | Equipe      | S          |
 
 ---
 
@@ -108,7 +111,7 @@ Média
 
 # Método de Estimativa
 
-A equipe adotou o método de estimativas por camisetas, conforme sugerido na Sprint Planning.
+A equipe adotou o método de estimativas por camisetas.
 
 * S = baixa complexidade
 * M = média complexidade
@@ -118,4 +121,10 @@ A equipe adotou o método de estimativas por camisetas, conforme sugerido na Spr
 
 # Resultado Esperado da Sprint
 
-Ao final da Sprint, espera-se que a equipe tenha produzido os principais artefatos Scrum solicitados na atividade: Sprint Backlog, registros das Daily Scrums, Sprint Review e Sprint Retrospective.
+Ao final da Sprint, espera-se que a equipe tenha produzido os principais artefatos Scrum solicitados na atividade:
+
+* Sprint Backlog
+* Daily Logs
+* Sprint Review
+* Sprint Retrospective
+* README de documentação

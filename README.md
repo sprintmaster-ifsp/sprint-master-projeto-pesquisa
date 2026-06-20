@@ -74,6 +74,7 @@ Durante a Sprint foram produzidos os seguintes artefatos:
 * `SPRINT_BACKLOG.md`
 * `DAILY_LOGS.md`
 * `RETROSPECTIVE.md`
+* `SPRINT_REVIEW.pdf`
 
 ---
 
@@ -85,7 +86,8 @@ sprint-master-projeto-pesquisa
 ├── README.md
 ├── SPRINT_BACKLOG.md
 ├── DAILY_LOGS.md
-└── RETROSPECTIVE.md
+├── RETROSPECTIVE.md
+└── SPRINT_REVIEW.pdf
 ```
 
 ---
@@ -99,6 +101,8 @@ sprint-master-projeto-pesquisa
 3. Consulte o arquivo `DAILY_LOGS.md` para acompanhar os registros das Daily Scrums realizadas durante a Sprint.
 
 4. Consulte o arquivo `RETROSPECTIVE.md` para visualizar os resultados da Sprint Retrospective, incluindo lições aprendidas e ações de melhoria.
+
+5. Consulte o arquivo `SPRINT_REVIEW.pdf` para visualizar a apresentação da Sprint Review, contendo os resultados da Sprint, feedback recebido, itens concluídos e lições aprendidas.
 
 ---
 
